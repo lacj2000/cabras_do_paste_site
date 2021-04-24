@@ -3,7 +3,7 @@ import { BasePage } from '../components/BasePage';
 import styles from '../styles/pages/ProjectsPage.module.css';
 
 
-export const ProjectsPage = () => {
+export default function ProjectsPage  () {
   return (
       <BasePage>
         Projetos

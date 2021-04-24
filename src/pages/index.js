@@ -3,9 +3,9 @@ import Head from 'next/head'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
-import { HomePage } from './HomePage';
-import { MembersPage } from './MembersPage';
-import { ProjectsPage } from './ProjectsPage';
+import HomePage from './HomePage';
+import MembersPage from './MembersPage';
+import ProjectsPage from './ProjectsPage';
 
 
 export default function App() {

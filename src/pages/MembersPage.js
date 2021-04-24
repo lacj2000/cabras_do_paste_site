@@ -2,7 +2,7 @@ import React from 'react';
 import { BasePage } from '../components/BasePage';
 import styles from '../styles/pages/MembersPage.module.css';
 
-export const MembersPage = () => {
+export default function  MembersPage ()  {
   return (
     <BasePage>
     Members
