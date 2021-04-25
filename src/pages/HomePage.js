@@ -6,7 +6,7 @@ import styles from '../styles/pages/HomePage.module.css';
 export default function HomePage  ()  {
   return (
     <BasePage>
-    Home
+      Em Construção
     </BasePage>
   )
 }

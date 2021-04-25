@@ -10,17 +10,23 @@ export const NavigationBar = ({}) => {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand >
           <Link to='/'>
-            Cabras Do Paste
+          <img
+            src="/logo.png"
+            width="100px"
+            height="56,25px"
+            className="d-inline-block align-top"
+            alt="Cabras do Paste"
+          />
           </Link>
         </Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Item>
-            <Link to='/projects'>
+            <Link to='/projects'  className='nav-link' >
               Projetos
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Link to='/members'>
+            <Link to='/members'  className='nav-link'>
               Membros
             </Link>
           </Nav.Item>

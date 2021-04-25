@@ -1,0 +1,23 @@
+.memberComponent{
+  display: grid;
+  grid-template-areas: "img  div";
+
+}
+
+@media(max-width: 720px) {
+  .memberComponent{
+    display: grid;
+    grid-template-areas: "img" "div";
+    margin: auto;
+  }
+
+  .memberComponent img{
+    margin:auto;
+  }
+  
+  .memberComponent div{
+    text-align: center;
+  }
+
+}
+

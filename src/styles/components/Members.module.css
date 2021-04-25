@@ -1,0 +1,7 @@
+.membersComponent{
+  margin: 2rem;
+  padding: 2rem 3rem;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 3rem;
+}
