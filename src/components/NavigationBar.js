@@ -12,8 +12,8 @@ export const NavigationBar = ({}) => {
           <Link to='/'>
           <img
             src="/logo.png"
-            width="100px"
-            height="56,25px"
+            width="212,22px"
+            height="80px"
             className="d-inline-block align-top"
             alt="Cabras do Paste"
           />
