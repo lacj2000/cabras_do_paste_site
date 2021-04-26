@@ -13,7 +13,7 @@ function Member({member}){
       <div>
         <h1>{name}</h1>
         <p>{email}</p>
-        <a href={`https://github.com/${github}`}><AiFillGithub size='1.5em' />{github}</a>
+        <a href={`https://github.com/${github}`} target='_blank'><AiFillGithub size='1.5em' />{github}</a>
       </div>
     </div>
   );
