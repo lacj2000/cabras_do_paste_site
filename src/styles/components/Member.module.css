@@ -1,23 +1,16 @@
+
 .memberComponent{
   display: grid;
-  grid-template-areas: "img  div";
-
+  grid-template-areas: "img" "div";
+  margin: auto;
 }
 
-@media(max-width: 720px) {
-  .memberComponent{
-    display: grid;
-    grid-template-areas: "img" "div";
-    margin: auto;
-  }
-
-  .memberComponent img{
-    margin:auto;
-  }
-  
-  .memberComponent div{
-    text-align: center;
-  }
-
+.memberComponent img{
+  margin:auto;
 }
+
+.memberComponent div{
+  text-align: center;
+}
+
 
